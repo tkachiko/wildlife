@@ -204,3 +204,49 @@ figcaption {
     height: 70px;
     margin-top: 145px;
 }
+
+.get__notified {
+    display: flex;
+    align-content: center;
+    padding-top: 239px;
+    padding-left: 457px;
+    /* width: 526px; */
+}
+
+.get__notified_heading {
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.get__notified_form {
+    display: flex;
+    padding-left: 390px;
+    padding-top: 59px;
+}
+
+.get__notified_input {
+    align-items: center;
+    width: 510px;
+    height: 60px;
+    border: 1px solid #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    padding-left: 15px;
+    color: #666666;
+}
+
+.get__notified_button {
+    width: 120px;
+    background: #CD6326;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+}
