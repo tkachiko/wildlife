@@ -264,6 +264,8 @@ figcaption {
     line-height: 27px;
     padding-left: 15px;
     color: #666666;
+    background-color: #CCCCCC;
+    outline: none;
 }
 
 .get__notified_button {
