@@ -71,15 +71,16 @@ body {
     font-size: 23px;
 }
 
-.header__menu_blog:hover,
-.header__menu_contacts:hover,
-.header__menu_icon:hover {
+.header__menu_blog a:hover,
+.header__menu_contacts a:hover,
+.header__menu_icon a:hover {
     color: #CD6326;
     border-bottom: 3px solid #CD6326;
 }
 
 .header__menu_icon {
     display: block;
+    cursor: pointer;
     background-image: url(./assets/search.svg);
     width: 32px;
     height: 32px;
@@ -99,10 +100,16 @@ body {
     height: 50px;
     border: 2px solid #CD6326;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .header__menu_button:hover {
     background: #CD6326;
+}
+
+.header__menu_button:active {
+    background: #8F5613;
+    border: 2px solid #8F5613;
 }
 
 .survival {
@@ -150,6 +157,10 @@ body {
 
 .survival__button:hover {
     background: #E39128;
+}
+
+.survival__button:active {
+    background: #8F5613;
 }
 
 .main {
@@ -280,11 +291,17 @@ figcaption {
     cursor: pointer;
     border: 1px solid #CD6326;
     border-radius: 0px 5px 5px 0px;
+    outline: none;
 }
 
 .get__notified_button:hover {
     background: #E39128;
     border: 1px solid #E39128;
+}
+
+.get__notified_button:active {
+    background: #8F5613;
+    border: 1px solid #8F5613;
 }
 
 .footer {
@@ -311,13 +328,10 @@ figcaption {
     display: flex;
     justify-content: space-between;
     width: 475px;
-}
-
-.footer__menu__item {
     font-size: 23px;
 }
 
-.footer__menu_link:hover {
+.footer__menu_link a:hover {
     color: #CD6326;
     border-bottom: 3px solid #CD6326;
 }
@@ -329,19 +343,12 @@ figcaption {
     width: 240px;
 }
 
-.social__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
 .social__facebook {
     display: inline-block;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     background-image: url(./assets/facebook.svg);
-    fill: currentColor;
 }
 
 .social__facebook:hover {
@@ -350,6 +357,7 @@ figcaption {
 
 .social__instagram {
     display: inline-block;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     background-image: url(./assets/instagram.svg);
@@ -361,6 +369,7 @@ figcaption {
 
 .social__pinterest {
     display: inline-block;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     background-image: url(./assets/pinterest.svg);
@@ -372,6 +381,7 @@ figcaption {
 
 .social__telegram {
     display: inline-block;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     background-image: url(./assets/telegram.svg);
