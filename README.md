@@ -1,1 +1,1 @@
-# https://tkachiko.github.io/wildlife/
+https://tkachiko.github.io/wildlife/
